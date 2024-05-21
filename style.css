@@ -258,3 +258,23 @@ span {
   align-items: flex-start;
   gap: 16px;
 }
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  .navUl,
+  .navLi,
+  .main-container,
+  .featured-content {
+    flex-direction: column;
+  }
+  .img-container img {
+    width: 90%;
+    margin: 0;
+  }
+  .product-grid,
+  .logoAll {
+    grid-template-columns: 1fr;
+  }
+}
